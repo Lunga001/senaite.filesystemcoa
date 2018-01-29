@@ -4,5 +4,5 @@
 
     <include package="archetypes.schemaextender"/>
 
-    <adapter name='senaite.photoimporter' factory=".bikasetup.BikaSetupSchemaExtender" />
+    <adapter name='senaite.filesystemcoa' factory=".bikasetup.BikaSetupSchemaExtender" />
 </configure>
