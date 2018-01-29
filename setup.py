@@ -8,7 +8,7 @@ version = '1.0.0'
 setup(
     name='senaite.filesystemcoa',
     version=version,
-    description="SENAITE ADD-ON",
+    description="SENAITE COAs on File system",
     #long_description=open("docs/About.rst").read() +
     #                 "\n\n" +
     #                 open("senaite/photoimpoter/docs/API.rst").read() +

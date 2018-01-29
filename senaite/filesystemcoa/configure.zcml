@@ -3,14 +3,8 @@
     xmlns:browser="http://namespaces.zope.org/browser"
     i18n_domain="senaite">
 
-    <browser:page
-      for="*"
-      name="example"
-      class="senaite.addon.ExampleBrowserView"
-      attribute="example"
-      permission="zope.Public"
-    />
-
   <include file="profiles.zcml" />
+  <include package=".subscribers" />
+  <include package=".extenders" />
 
 </configure>
