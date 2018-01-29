@@ -21,7 +21,7 @@ class BikaSetupSchemaExtender(object):
     fields = [
         COAFolderField(
             'COAFolder', 
-            schemata="Analyses",
+           schemata="Results Reports",
             widget=StringWidget(
                 label=_("COA Folder"),
                 description=_("The folder on the filesystem where the COAs"
